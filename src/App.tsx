@@ -4,7 +4,6 @@ import SignUp from './pages/SignUp'
 import Layout from './pages/Layout'
 import Feed from './pages/Feed'
 import PlayerProfile from './pages/Profile'
-import ReactDOM from 'react-dom';
 import 'react-responsive-modal/styles.css';
 
 function App() {

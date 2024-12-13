@@ -16,8 +16,6 @@ const Login = () => {
     const {
         register,
         handleSubmit,
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        formState: { errors },
     } = useForm<FormInputType>()
 
     const onSubmit: SubmitHandler<FormInputType> = async (data) => {
